@@ -26,6 +26,7 @@ extension RecipesViewController: UICollectionViewDataSource {
         return cell
     }
 }
+
 extension RecipesViewController: UICollectionViewDelegateFlowLayout {
     final public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let height = collectionView.frame.height * 4/6

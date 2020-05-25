@@ -20,7 +20,6 @@ final class RecipesViewController: UIViewController {
         super.viewDidLoad()
         setupView()
         navigationController?.navigationBar.barTintColor = UIColor.systemYellow.withAlphaComponent(0)
-
         
     }
     
