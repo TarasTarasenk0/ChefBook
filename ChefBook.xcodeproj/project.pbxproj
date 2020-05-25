@@ -59,6 +59,7 @@
 		302E5F912477EEE200C04D7F /* RecipesViewController */ = {
 			isa = PBXGroup;
 			children = (
+				302E5F902477EEC900C04D7F /* View */,
 				30B4C5272477DA670013D51F /* RecipesViewController.swift */,
 				302E5F922477EF5C00C04D7F /* RecipesViewControllerDelegate.swift */,
 			);
@@ -92,16 +93,15 @@
 		30B4C5222477DA670013D51F /* ChefBook */ = {
 			isa = PBXGroup;
 			children = (
-				307FA76A247802EE000E0D3F /* Colors */,
-				302E5F912477EEE200C04D7F /* RecipesViewController */,
-				302E5F902477EEC900C04D7F /* View */,
 				30B4C5232477DA670013D51F /* AppDelegate.swift */,
 				30B4C5252477DA670013D51F /* SceneDelegate.swift */,
+				30B4C5372477DBBB0013D51F /* NetworkController.swift */,
+				302E5F912477EEE200C04D7F /* RecipesViewController */,
 				30B4C5292477DA670013D51F /* Main.storyboard */,
 				30B4C52C2477DA700013D51F /* Assets.xcassets */,
+				307FA76A247802EE000E0D3F /* Colors */,
 				30B4C52E2477DA700013D51F /* LaunchScreen.storyboard */,
 				30B4C5312477DA710013D51F /* Info.plist */,
-				30B4C5372477DBBB0013D51F /* NetworkController.swift */,
 			);
 			path = ChefBook;
 			sourceTree = "<group>";
