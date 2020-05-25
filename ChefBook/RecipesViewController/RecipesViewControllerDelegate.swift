@@ -19,7 +19,7 @@ extension RecipesViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MainRecipeCellId", for: indexPath) as! RecipeCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: RecipeCell.identifier, for: indexPath) as! RecipeCell
         cell.layer.cornerRadius = 25
         //        let item = photosArray[indexPath.row]
         //       cell.setImage = item

@@ -30,7 +30,7 @@ private extension RecipesViewController {
     
     //MARK: - SetupView
     func setupView() {
-        self.collectionView.register(UINib(nibName: "RecipeCell", bundle: nil), forCellWithReuseIdentifier: "MainRecipeCellId")
+        self.collectionView.register(UINib(nibName: RecipeCell.identifier, bundle: nil), forCellWithReuseIdentifier: RecipeCell.identifier)
         //items = realm.objects(RealmPhotoModel.self)
         
         searchBar.placeholder = "Search Recipe"

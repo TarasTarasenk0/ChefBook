@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3018F441247C215900C96C83 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3018F440247C215900C96C83 /* NSObject.swift */; };
 		302E5F932477EF5C00C04D7F /* RecipesViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302E5F922477EF5C00C04D7F /* RecipesViewControllerDelegate.swift */; };
 		307FA76C2478031B000E0D3F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 307FA76B2478031B000E0D3F /* Colors.xcassets */; };
 		30B4C5242477DA670013D51F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B4C5232477DA670013D51F /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3018F440247C215900C96C83 /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
 		302E5F922477EF5C00C04D7F /* RecipesViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewControllerDelegate.swift; sourceTree = "<group>"; };
 		307FA76B2478031B000E0D3F /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		30B4C5202477DA670013D51F /* ChefBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3018F442247C215C00C96C83 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3018F440247C215900C96C83 /* NSObject.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		302E5F902477EEC900C04D7F /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				30B4C5232477DA670013D51F /* AppDelegate.swift */,
+				3018F442247C215C00C96C83 /* Extension */,
 				30B4C5252477DA670013D51F /* SceneDelegate.swift */,
 				30B4C5372477DBBB0013D51F /* NetworkController.swift */,
 				302E5F912477EEE200C04D7F /* RecipesViewController */,
@@ -182,6 +193,7 @@
 				30B4C5382477DBBB0013D51F /* NetworkController.swift in Sources */,
 				30B4C5282477DA670013D51F /* RecipesViewController.swift in Sources */,
 				302E5F932477EF5C00C04D7F /* RecipesViewControllerDelegate.swift in Sources */,
+				3018F441247C215900C96C83 /* NSObject.swift in Sources */,
 				30BEAC3E247C19C4005A6477 /* RecipeCell.swift in Sources */,
 				30B4C5242477DA670013D51F /* AppDelegate.swift in Sources */,
 				30B4C5262477DA670013D51F /* SceneDelegate.swift in Sources */,
