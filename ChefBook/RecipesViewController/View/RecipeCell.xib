@@ -41,6 +41,14 @@
                                     <constraint firstItem="p0T-hw-UI7" firstAttribute="top" secondItem="g1l-ez-Dqe" secondAttribute="top" id="ili-IP-LDf"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHs-9s-c7v">
+                                <rect key="frame" x="8" y="9" width="46" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="pzF-ok-EDG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="❤️"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -57,7 +65,10 @@
             </view>
             <constraints>
                 <constraint firstItem="b9J-yV-y2k" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="7lT-mE-qmR"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="top" secondItem="NHs-9s-c7v" secondAttribute="top" constant="35" id="Hlg-QA-dDh"/>
                 <constraint firstAttribute="bottom" secondItem="b9J-yV-y2k" secondAttribute="bottom" id="L9E-OC-5AY"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="NHs-9s-c7v" secondAttribute="trailing" constant="237" id="V3E-Vx-vPY"/>
+                <constraint firstItem="NHs-9s-c7v" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" constant="8" id="Zzg-5T-GaM"/>
                 <constraint firstItem="b9J-yV-y2k" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="arF-U5-t8n"/>
                 <constraint firstAttribute="trailing" secondItem="b9J-yV-y2k" secondAttribute="trailing" id="wut-HT-ME0"/>
             </constraints>

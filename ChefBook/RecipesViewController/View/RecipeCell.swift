@@ -22,21 +22,7 @@ class RecipeCell: UICollectionViewCell {
     
        func setupView() {
         blurredView.addBlurEffect()
-    //    let blurEffect = UIVisualEffectView(effect: UIBlurEffect(style: .light))
-    //    blurEffect.frame = blurredView.frame
-    //    blurredView.addSubview(blurEffect)
+   
         }
     }
-    
-    extension UIView {
-        func addBlurEffect()
-        {
-            let blurEffect = UIBlurEffect(style: .light)
-            let blurEffectView = UIVisualEffectView(effect: blurEffect)
-            blurEffectView.frame = self.bounds
-    
-            blurEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight] // for supporting device rotation
-            self.addSubview(blurEffectView)
-        }
-    
-}
+
