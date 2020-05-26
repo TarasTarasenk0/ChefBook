@@ -42,16 +42,18 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHs-9s-c7v">
-                                <rect key="frame" x="8" y="9" width="46" height="40"/>
+                                <rect key="frame" x="8" y="9" width="40" height="40"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="kd9-Hu-k0o"/>
                                     <constraint firstAttribute="height" constant="40" id="pzF-ok-EDG"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="❤️"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="NHs-9s-c7v" firstAttribute="top" secondItem="b9J-yV-y2k" secondAttribute="top" constant="9" id="0lh-s6-RLM"/>
                             <constraint firstAttribute="trailing" secondItem="Mgg-KW-IkW" secondAttribute="trailing" id="DTe-71-VoX"/>
                             <constraint firstAttribute="bottom" secondItem="g1l-ez-Dqe" secondAttribute="bottom" id="VnU-fh-bdp"/>
                             <constraint firstItem="g1l-ez-Dqe" firstAttribute="leading" secondItem="b9J-yV-y2k" secondAttribute="leading" id="YhL-Fo-fr6"/>
@@ -65,9 +67,7 @@
             </view>
             <constraints>
                 <constraint firstItem="b9J-yV-y2k" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="7lT-mE-qmR"/>
-                <constraint firstItem="ZTg-uK-7eu" firstAttribute="top" secondItem="NHs-9s-c7v" secondAttribute="top" constant="35" id="Hlg-QA-dDh"/>
                 <constraint firstAttribute="bottom" secondItem="b9J-yV-y2k" secondAttribute="bottom" id="L9E-OC-5AY"/>
-                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="NHs-9s-c7v" secondAttribute="trailing" constant="237" id="V3E-Vx-vPY"/>
                 <constraint firstItem="NHs-9s-c7v" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" constant="8" id="Zzg-5T-GaM"/>
                 <constraint firstItem="b9J-yV-y2k" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="arF-U5-t8n"/>
                 <constraint firstAttribute="trailing" secondItem="b9J-yV-y2k" secondAttribute="trailing" id="wut-HT-ME0"/>
