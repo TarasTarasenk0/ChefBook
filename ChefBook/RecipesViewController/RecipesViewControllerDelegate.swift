@@ -10,19 +10,16 @@ import UIKit
 
 //MARK: - UICollectionViewDelegate
 extension RecipesViewController: UICollectionViewDelegate {
-    
 }
 
 extension RecipesViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 3
+        return recipesArray.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: RecipeCell.identifier, for: indexPath) as! RecipeCell
-        cell.layer.cornerRadius = 25
-        //        let item = photosArray[indexPath.row]
-        //       cell.setImage = item
+        cell.configure(recipesArray[indexPath.item])
         return cell
     }
 }
