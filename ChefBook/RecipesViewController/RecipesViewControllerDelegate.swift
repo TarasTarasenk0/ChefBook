@@ -19,6 +19,8 @@ extension RecipesViewController: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: RecipeCell.identifier, for: indexPath) as! RecipeCell
+        cell.contentView.layer.cornerRadius = 25
+        cell.contentView.layer.masksToBounds = true;
         cell.configure(recipesArray[indexPath.item])
         return cell
     }

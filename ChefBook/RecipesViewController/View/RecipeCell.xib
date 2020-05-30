@@ -23,27 +23,28 @@
                                 <rect key="frame" x="0.0" y="0.0" width="291" height="257"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g1l-ez-Dqe">
-                                <rect key="frame" x="0.0" y="177" width="291" height="80"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="0.0" y="167" width="291" height="90"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="8mc-T4-gGp"/>
+                                    <constraint firstAttribute="height" constant="90" id="8mc-T4-gGp"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHs-9s-c7v">
-                                <rect key="frame" x="8" y="9" width="40" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHs-9s-c7v">
+                                <rect key="frame" x="16" y="9" width="80" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="40" id="kd9-Hu-k0o"/>
+                                    <constraint firstAttribute="width" constant="80" id="kd9-Hu-k0o"/>
                                     <constraint firstAttribute="height" constant="40" id="pzF-ok-EDG"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="❤️"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" title="❤️">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RecipeTitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p0T-hw-UI7">
-                                <rect key="frame" x="8" y="188" width="275" height="61"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RecipeTitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p0T-hw-UI7">
+                                <rect key="frame" x="8" y="176" width="275" height="55"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="61" id="1Bx-n6-JK8"/>
+                                    <constraint firstAttribute="height" constant="55" id="lmo-Xd-GBv"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -59,7 +60,7 @@
                             <constraint firstItem="p0T-hw-UI7" firstAttribute="leading" secondItem="b9J-yV-y2k" secondAttribute="leading" constant="8" id="dRq-zR-Xe8"/>
                             <constraint firstAttribute="trailing" secondItem="g1l-ez-Dqe" secondAttribute="trailing" id="eZy-aS-XY3"/>
                             <constraint firstItem="Mgg-KW-IkW" firstAttribute="leading" secondItem="b9J-yV-y2k" secondAttribute="leading" id="i8D-P6-hq1"/>
-                            <constraint firstAttribute="bottom" secondItem="p0T-hw-UI7" secondAttribute="bottom" constant="8" id="oG8-vd-lB4"/>
+                            <constraint firstAttribute="bottom" secondItem="p0T-hw-UI7" secondAttribute="bottom" constant="26" id="oG8-vd-lB4"/>
                             <constraint firstAttribute="bottom" secondItem="Mgg-KW-IkW" secondAttribute="bottom" id="qCy-Qn-QiK"/>
                         </constraints>
                     </view>
@@ -68,7 +69,7 @@
             <constraints>
                 <constraint firstItem="b9J-yV-y2k" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="7lT-mE-qmR"/>
                 <constraint firstAttribute="bottom" secondItem="b9J-yV-y2k" secondAttribute="bottom" id="L9E-OC-5AY"/>
-                <constraint firstItem="NHs-9s-c7v" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" constant="8" id="Zzg-5T-GaM"/>
+                <constraint firstItem="NHs-9s-c7v" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" constant="16" id="Zzg-5T-GaM"/>
                 <constraint firstItem="b9J-yV-y2k" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="arF-U5-t8n"/>
                 <constraint firstAttribute="trailing" secondItem="b9J-yV-y2k" secondAttribute="trailing" id="wut-HT-ME0"/>
             </constraints>
@@ -78,6 +79,7 @@
                 <outlet property="blurredView" destination="g1l-ez-Dqe" id="zn8-we-G7O"/>
                 <outlet property="recipeImage" destination="Mgg-KW-IkW" id="if4-Wa-eVB"/>
                 <outlet property="recipeTitle" destination="p0T-hw-UI7" id="oNK-hD-1ee"/>
+                <outlet property="saveButton" destination="NHs-9s-c7v" id="nD5-3n-LaW"/>
             </connections>
             <point key="canvasLocation" x="303.62318840579712" y="146.31696428571428"/>
         </collectionViewCell>

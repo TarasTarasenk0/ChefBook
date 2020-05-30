@@ -21,7 +21,7 @@
                                 <color key="backgroundColor" name="mainScreenBackground"/>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" keyboardDismissMode="onDrag" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4kz-Vy-Laj">
-                                <rect key="frame" x="8" y="88" width="398" height="774"/>
+                                <rect key="frame" x="12" y="100" width="390" height="762"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="iD2-Ye-MXT">
                                     <size key="itemSize" width="50" height="50"/>
@@ -38,11 +38,11 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="4kz-Vy-Laj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="Fcz-Tn-g6i"/>
+                            <constraint firstItem="4kz-Vy-Laj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="Fcz-Tn-g6i"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ob8-da-Vua" secondAttribute="bottom" multiplier="4" id="GnH-SV-aZc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4kz-Vy-Laj" secondAttribute="bottom" id="Lei-sI-9UP"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4kz-Vy-Laj" secondAttribute="trailing" constant="8" id="eEt-Qx-P6K"/>
-                            <constraint firstItem="4kz-Vy-Laj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="eEv-u9-gbT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4kz-Vy-Laj" secondAttribute="trailing" constant="12" id="eEt-Qx-P6K"/>
+                            <constraint firstItem="4kz-Vy-Laj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="eEv-u9-gbT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ob8-da-Vua" secondAttribute="trailing" id="m7b-0P-dPZ"/>
                             <constraint firstItem="Ob8-da-Vua" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oPe-uP-WIK"/>
                             <constraint firstItem="Ob8-da-Vua" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tZe-nz-nYw"/>
@@ -52,6 +52,7 @@
                     <navigationItem key="navigationItem" id="Bqc-Np-uaX"/>
                     <connections>
                         <outlet property="collectionView" destination="4kz-Vy-Laj" id="hNC-ru-KEY"/>
+                        <outlet property="yellowBackgroundView" destination="Ob8-da-Vua" id="cik-Ea-WMG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
