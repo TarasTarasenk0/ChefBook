@@ -5,9 +5,6 @@
 //  Created by md760 on 22.05.2020.
 //  Copyright © 2020 md760. All rights reserved.
 
-
-
-
 import UIKit
 
 final class RecipesViewController: UIViewController {

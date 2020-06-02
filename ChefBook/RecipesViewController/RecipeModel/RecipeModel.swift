@@ -10,7 +10,6 @@
 import Foundation
 
 struct SearchedRecipe: Decodable {
-    //let count: Int
     let hits: [Hits]
 }
 
@@ -21,5 +20,11 @@ struct Hits: Decodable {
 struct Recipe: Decodable {
     let label: String
     let image: String
+    let url: String
+    let ingredients: [Ingredient]
 }
 
+struct Ingredient: Decodable {
+    let text: String
+    let weight: Double
+}

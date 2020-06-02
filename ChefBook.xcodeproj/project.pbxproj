@@ -12,7 +12,14 @@
 		3018F444247C233500C96C83 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3018F443247C233500C96C83 /* UIView.swift */; };
 		301EDAC72481141900DA5A14 /* CustonImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301EDAC62481141900DA5A14 /* CustonImageView.swift */; };
 		302E5F932477EF5C00C04D7F /* RecipesViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302E5F922477EF5C00C04D7F /* RecipesViewControllerDelegate.swift */; };
+		305AEF04248507B50088E2D6 /* DetailRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AEF03248507B50088E2D6 /* DetailRecipeViewController.swift */; };
+		305AEF062485397F0088E2D6 /* DetailStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305AEF052485397F0088E2D6 /* DetailStoryboard.storyboard */; };
+		305AEF0824854BDA0088E2D6 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AEF0724854BDA0088E2D6 /* UIStoryboard.swift */; };
+		305AEF0A24854C0E0088E2D6 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AEF0924854C0E0088E2D6 /* UIViewController.swift */; };
+		305AEF0C24854C3A0088E2D6 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305AEF0B24854C3A0088E2D6 /* Storyboards.swift */; };
 		307FA76C2478031B000E0D3F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 307FA76B2478031B000E0D3F /* Colors.xcassets */; };
+		309AA0CC248657240050DD8A /* DetailRecipeVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309AA0CB248657240050DD8A /* DetailRecipeVCDelegate.swift */; };
+		309AA0CF248658800050DD8A /* IngredientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309AA0CE248658800050DD8A /* IngredientCell.swift */; };
 		309B3775247E7BF800BBB655 /* RecipeSearchBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309B3774247E7BF800BBB655 /* RecipeSearchBarDelegate.swift */; };
 		309B3778247EC82E00BBB655 /* ConstName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309B3777247EC82E00BBB655 /* ConstName.swift */; };
 		309B377A247EC89D00BBB655 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309B3779247EC89D00BBB655 /* Alert.swift */; };
@@ -33,7 +40,14 @@
 		3018F443247C233500C96C83 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		301EDAC62481141900DA5A14 /* CustonImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustonImageView.swift; sourceTree = "<group>"; };
 		302E5F922477EF5C00C04D7F /* RecipesViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewControllerDelegate.swift; sourceTree = "<group>"; };
+		305AEF03248507B50088E2D6 /* DetailRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRecipeViewController.swift; sourceTree = "<group>"; };
+		305AEF052485397F0088E2D6 /* DetailStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailStoryboard.storyboard; sourceTree = "<group>"; };
+		305AEF0724854BDA0088E2D6 /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		305AEF0924854C0E0088E2D6 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		305AEF0B24854C3A0088E2D6 /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
 		307FA76B2478031B000E0D3F /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		309AA0CB248657240050DD8A /* DetailRecipeVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRecipeVCDelegate.swift; sourceTree = "<group>"; };
+		309AA0CE248658800050DD8A /* IngredientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCell.swift; sourceTree = "<group>"; };
 		309B3774247E7BF800BBB655 /* RecipeSearchBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSearchBarDelegate.swift; sourceTree = "<group>"; };
 		309B3777247EC82E00BBB655 /* ConstName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstName.swift; sourceTree = "<group>"; };
 		309B3779247EC89D00BBB655 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
@@ -80,6 +94,8 @@
 			children = (
 				3018F440247C215900C96C83 /* NSObject.swift */,
 				3018F443247C233500C96C83 /* UIView.swift */,
+				305AEF0724854BDA0088E2D6 /* UIStoryboard.swift */,
+				305AEF0924854C0E0088E2D6 /* UIViewController.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -121,11 +137,31 @@
 			path = Colors;
 			sourceTree = "<group>";
 		};
+		309AA0CA248654F50050DD8A /* DetailRecipeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				309AA0CD248658590050DD8A /* View */,
+				305AEF03248507B50088E2D6 /* DetailRecipeViewController.swift */,
+				309AA0CB248657240050DD8A /* DetailRecipeVCDelegate.swift */,
+				305AEF052485397F0088E2D6 /* DetailStoryboard.storyboard */,
+			);
+			path = DetailRecipeViewController;
+			sourceTree = "<group>";
+		};
+		309AA0CD248658590050DD8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				309AA0CE248658800050DD8A /* IngredientCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		309B3776247EC81200BBB655 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				309B3777247EC82E00BBB655 /* ConstName.swift */,
 				309B3779247EC89D00BBB655 /* Alert.swift */,
+				305AEF0B24854C3A0088E2D6 /* Storyboards.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -158,8 +194,9 @@
 				30D3D612247D687800A6DF34 /* Services */,
 				3018F442247C215C00C96C83 /* Extension */,
 				302E5F912477EEE200C04D7F /* RecipesViewController */,
-				30B4C5292477DA670013D51F /* Main.storyboard */,
+				309AA0CA248654F50050DD8A /* DetailRecipeViewController */,
 				30B4C52C2477DA700013D51F /* Assets.xcassets */,
+				30B4C5292477DA670013D51F /* Main.storyboard */,
 				307FA76A247802EE000E0D3F /* Colors */,
 				30B4C52E2477DA700013D51F /* LaunchScreen.storyboard */,
 				30B4C5312477DA710013D51F /* Info.plist */,
@@ -253,6 +290,7 @@
 			files = (
 				307FA76C2478031B000E0D3F /* Colors.xcassets in Resources */,
 				30B4C5302477DA700013D51F /* LaunchScreen.storyboard in Resources */,
+				305AEF062485397F0088E2D6 /* DetailStoryboard.storyboard in Resources */,
 				30BEAC3F247C19C4005A6477 /* RecipeCell.xib in Resources */,
 				30B4C52D2477DA700013D51F /* Assets.xcassets in Resources */,
 				30B4C52B2477DA670013D51F /* Main.storyboard in Resources */,
@@ -312,7 +350,11 @@
 				30B4C5282477DA670013D51F /* RecipesViewController.swift in Sources */,
 				302E5F932477EF5C00C04D7F /* RecipesViewControllerDelegate.swift in Sources */,
 				301EDAC72481141900DA5A14 /* CustonImageView.swift in Sources */,
+				309AA0CF248658800050DD8A /* IngredientCell.swift in Sources */,
+				305AEF04248507B50088E2D6 /* DetailRecipeViewController.swift in Sources */,
 				3018F441247C215900C96C83 /* NSObject.swift in Sources */,
+				305AEF0824854BDA0088E2D6 /* UIStoryboard.swift in Sources */,
+				305AEF0C24854C3A0088E2D6 /* Storyboards.swift in Sources */,
 				309B377A247EC89D00BBB655 /* Alert.swift in Sources */,
 				30BEAC3E247C19C4005A6477 /* RecipeCell.swift in Sources */,
 				30D3D614247D689200A6DF34 /* APIService.swift in Sources */,
@@ -320,6 +362,8 @@
 				30B4C5262477DA670013D51F /* SceneDelegate.swift in Sources */,
 				309B3775247E7BF800BBB655 /* RecipeSearchBarDelegate.swift in Sources */,
 				309B3778247EC82E00BBB655 /* ConstName.swift in Sources */,
+				305AEF0A24854C0E0088E2D6 /* UIViewController.swift in Sources */,
+				309AA0CC248657240050DD8A /* DetailRecipeVCDelegate.swift in Sources */,
 				30D3D611247D56CB00A6DF34 /* RecipeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

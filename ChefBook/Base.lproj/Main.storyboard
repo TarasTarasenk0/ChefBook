@@ -11,13 +11,13 @@
         <!--Recipes View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="RecipesViewController" customModule="ChefBook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RecipesViewController" id="BYZ-38-t0r" customClass="RecipesViewController" customModule="ChefBook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ob8-da-Vua">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="215.5"/>
+                                <rect key="frame" x="0.0" y="-41" width="414" height="256"/>
                                 <color key="backgroundColor" name="mainScreenBackground"/>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" keyboardDismissMode="onDrag" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4kz-Vy-Laj">
@@ -39,13 +39,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="4kz-Vy-Laj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="Fcz-Tn-g6i"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ob8-da-Vua" secondAttribute="bottom" multiplier="4" id="GnH-SV-aZc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ob8-da-Vua" secondAttribute="bottom" multiplier="4" constant="2" id="GnH-SV-aZc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4kz-Vy-Laj" secondAttribute="bottom" id="Lei-sI-9UP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4kz-Vy-Laj" secondAttribute="trailing" constant="12" id="eEt-Qx-P6K"/>
                             <constraint firstItem="4kz-Vy-Laj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="eEv-u9-gbT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ob8-da-Vua" secondAttribute="trailing" id="m7b-0P-dPZ"/>
                             <constraint firstItem="Ob8-da-Vua" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oPe-uP-WIK"/>
-                            <constraint firstItem="Ob8-da-Vua" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tZe-nz-nYw"/>
+                            <constraint firstItem="Ob8-da-Vua" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-41" id="tZe-nz-nYw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -69,6 +69,7 @@
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
