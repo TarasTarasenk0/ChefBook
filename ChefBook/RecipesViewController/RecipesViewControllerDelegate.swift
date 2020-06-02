@@ -10,8 +10,17 @@ import UIKit
 
 //MARK: - UICollectionViewDelegate
 extension RecipesViewController: UICollectionViewDelegate {
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let detailRecipeVC = DetailRecipeViewController.instance(.detailRecipe)
+        let currentRecipe = recipesArray[indexPath.row]
+        detailRecipeVC.recipe = currentRecipe
+        navigationController?.pushViewController(detailRecipeVC, animated: true)
+        
+    }
 }
 
+//MARK: - UICollectionViewDataSource
 extension RecipesViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return recipesArray.count
@@ -26,6 +35,7 @@ extension RecipesViewController: UICollectionViewDataSource {
     }
 }
 
+//MARK: - UICollectionViewDelegateFlowLayout
 extension RecipesViewController: UICollectionViewDelegateFlowLayout {
     final public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let height = collectionView.frame.height * 4/6
