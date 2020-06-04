@@ -39,10 +39,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RecipeTitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p0T-hw-UI7">
-                                <rect key="frame" x="8" y="176" width="275" height="55"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RecipeTitle" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p0T-hw-UI7">
+                                <rect key="frame" x="8" y="176" width="275" height="61"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="55" id="lmo-Xd-GBv"/>
+                                    <constraint firstAttribute="height" constant="61" id="lmo-Xd-GBv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
@@ -60,7 +60,7 @@
                             <constraint firstItem="p0T-hw-UI7" firstAttribute="leading" secondItem="b9J-yV-y2k" secondAttribute="leading" constant="8" id="dRq-zR-Xe8"/>
                             <constraint firstAttribute="trailing" secondItem="g1l-ez-Dqe" secondAttribute="trailing" id="eZy-aS-XY3"/>
                             <constraint firstItem="Mgg-KW-IkW" firstAttribute="leading" secondItem="b9J-yV-y2k" secondAttribute="leading" id="i8D-P6-hq1"/>
-                            <constraint firstAttribute="bottom" secondItem="p0T-hw-UI7" secondAttribute="bottom" constant="26" id="oG8-vd-lB4"/>
+                            <constraint firstAttribute="bottom" secondItem="p0T-hw-UI7" secondAttribute="bottom" constant="20" id="oG8-vd-lB4"/>
                             <constraint firstAttribute="bottom" secondItem="Mgg-KW-IkW" secondAttribute="bottom" id="qCy-Qn-QiK"/>
                         </constraints>
                     </view>
