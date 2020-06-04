@@ -11,4 +11,5 @@ import UIKit
 enum Storyboards: String {
     case main = "Main"
     case detailRecipe = "DetailStoryboard"
+    case startCookingWeb = "StartCookingWebView"
 }

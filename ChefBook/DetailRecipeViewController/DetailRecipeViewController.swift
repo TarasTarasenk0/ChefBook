@@ -32,12 +32,12 @@ final class DetailRecipeViewController: UIViewController {
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationController?.navigationBar.shadowImage = UIImage()
         navigationController?.navigationBar.isTranslucent = true
+        navigationController?.navigationBar.tintColor = .white
     }
     @IBAction func startCooking(_ sender: Any) {
-        guard let urlString = recipe?.url else { return }
-        if let url = URL(string: urlString) {
-            UIApplication.shared.open(url)
-        }
+        let startCookingWebVC = StartCookingWebViewController.instance(.startCookingWeb)
+        startCookingWebVC.startCookingUrlString = recipe?.url
+        navigationController?.pushViewController(startCookingWebVC, animated: true)
     }
 }
 
