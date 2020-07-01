@@ -17,6 +17,7 @@ extension RecipesViewController: UISearchBarDelegate {
             searchBar.resignFirstResponder()
             searchBar.setShowsCancelButton(false, animated: true)
             APIService.getRecipeBy(name: text) { [weak self] (model) in
+                print(model)
                 if let hits = model?.hits, hits.count != 0 {
                     guard let `self` = self else {return}
                     self.recipesArray = hits.map { $0.recipe }
