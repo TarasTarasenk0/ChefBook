@@ -1,64 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5mF-tO-6bb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5mF-tO-6bb">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Recipes View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController storyboardIdentifier="RecipesViewController" id="BYZ-38-t0r" customClass="RecipesViewController" customModule="ChefBook" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ob8-da-Vua">
-                                <rect key="frame" x="0.0" y="-41" width="414" height="256"/>
-                                <color key="backgroundColor" name="mainScreenBackground"/>
-                            </view>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" keyboardDismissMode="onDrag" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4kz-Vy-Laj">
-                                <rect key="frame" x="12" y="100" width="390" height="762"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="iD2-Ye-MXT">
-                                    <size key="itemSize" width="50" height="50"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells/>
-                                <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="kNB-I7-oxB"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="OGl-TT-bgd"/>
-                                </connections>
-                            </collectionView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="4kz-Vy-Laj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="Fcz-Tn-g6i"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ob8-da-Vua" secondAttribute="bottom" multiplier="4" constant="2" id="GnH-SV-aZc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4kz-Vy-Laj" secondAttribute="bottom" id="Lei-sI-9UP"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4kz-Vy-Laj" secondAttribute="trailing" constant="12" id="eEt-Qx-P6K"/>
-                            <constraint firstItem="4kz-Vy-Laj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="eEv-u9-gbT"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ob8-da-Vua" secondAttribute="trailing" id="m7b-0P-dPZ"/>
-                            <constraint firstItem="Ob8-da-Vua" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oPe-uP-WIK"/>
-                            <constraint firstItem="Ob8-da-Vua" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-41" id="tZe-nz-nYw"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Bqc-Np-uaX"/>
-                    <connections>
-                        <outlet property="collectionView" destination="4kz-Vy-Laj" id="hNC-ru-KEY"/>
-                        <outlet property="yellowBackgroundView" destination="Ob8-da-Vua" id="cik-Ea-WMG"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1042.0289855072465" y="120.53571428571428"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="eGx-D2-xwv">
             <objects>
@@ -73,17 +20,22 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ozm-wt-L59"/>
+                        <segue destination="iNj-gc-Hkq" kind="relationship" relationship="rootViewController" id="ozm-wt-L59"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mwc-My-t6b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="120.53571428571428"/>
         </scene>
+        <!--RecipesViewController-->
+        <scene sceneID="ugM-Z5-JL8">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="RecipesViewController" storyboardName="SearchRecipes" referencedIdentifier="RecipesViewController" id="iNj-gc-Hkq" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="EkZ-FA-pP8"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4gP-fs-XGd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1042.0289855072465" y="120.53571428571428"/>
+        </scene>
     </scenes>
-    <resources>
-        <namedColor name="mainScreenBackground">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-    </resources>
 </document>
