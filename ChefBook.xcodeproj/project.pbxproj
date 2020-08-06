@@ -24,6 +24,7 @@
 		309B3778247EC82E00BBB655 /* ConstName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309B3777247EC82E00BBB655 /* ConstName.swift */; };
 		309B377A247EC89D00BBB655 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309B3779247EC89D00BBB655 /* Alert.swift */; };
 		30A0F8C224DC0D8F004C14ED /* SearchRecipes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A0F8C124DC0D8F004C14ED /* SearchRecipes.storyboard */; };
+		30A0F8C424DC0F9F004C14ED /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A0F8C324DC0F9F004C14ED /* WebKit.framework */; };
 		30B4C5242477DA670013D51F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B4C5232477DA670013D51F /* AppDelegate.swift */; };
 		30B4C5262477DA670013D51F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B4C5252477DA670013D51F /* SceneDelegate.swift */; };
 		30B4C5282477DA670013D51F /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B4C5272477DA670013D51F /* RecipesViewController.swift */; };
@@ -55,6 +56,7 @@
 		309B3777247EC82E00BBB655 /* ConstName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstName.swift; sourceTree = "<group>"; };
 		309B3779247EC89D00BBB655 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		30A0F8C124DC0D8F004C14ED /* SearchRecipes.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SearchRecipes.storyboard; sourceTree = SOURCE_ROOT; };
+		30A0F8C324DC0F9F004C14ED /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		30B4C5202477DA670013D51F /* ChefBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B4C5232477DA670013D51F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30B4C5252477DA670013D51F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A0F8C424DC0F9F004C14ED /* WebKit.framework in Frameworks */,
 				1A6DDAC2DA091808A87DB9B3 /* Pods_ChefBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +243,7 @@
 		9AC7AFA56DE18058DD405DDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				30A0F8C324DC0F9F004C14ED /* WebKit.framework */,
 				ADF6857BB1190C0C6FD375CA /* Pods_ChefBook.framework */,
 			);
 			name = Frameworks;
